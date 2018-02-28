@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="今週の当番" />
+
+    <TextView
+        android:id="@+id/gomi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:textSize="20sp"
+        android:text="　ゴミ：" />
+
+    <TextView
+        android:id="@+id/gomin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gomi"
+        android:layout_below="@+id/title"
+        android:textSize="20sp"
+        android:text="○○" />
+
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/gomin"
+        android:layout_below="@id/title"
+        android:text="パス"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/yuka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gomi"
+        android:textSize="20sp"
+        android:text="　　床：" />
+
+    <TextView
+        android:id="@+id/yukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/yuka"
+        android:layout_below="@+id/gomi"
+        android:textSize="20sp"
+        android:text="○○" />
+
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/yukan"
+        android:layout_below="@id/gomi"
+        android:text="パス"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/toire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yuka"
+        android:textSize="20sp"
+        android:text="トイレ：" />
+
+    <TextView
+        android:id="@+id/toiren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/toire"
+        android:layout_below="@+id/yuka"
+        android:textSize="20sp"
+        android:text="○○" />
+
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/toiren"
+        android:layout_below="@id/yuka"
+        android:text="パス"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/syorui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toire"
+        android:textSize="20sp"
+        android:text="　書類：" />
+
+    <TextView
+        android:id="@+id/syoruin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/syorui"
+        android:layout_below="@+id/toire"
+        android:textSize="20sp"
+        android:text="○○" />
+
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/syoruin"
+        android:layout_below="@id/toire"
+        android:text="パス"
+        android:textSize="10sp" />
+
+</RelativeLayout>
